@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cjg0905.github.io</id>
     <title>Gridea</title>
-    <updated>2025-01-16T13:33:55.212Z</updated>
+    <updated>2025-01-19T10:59:26.649Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cjg0905.github.io"/>
     <link rel="self" href="https://cjg0905.github.io/atom.xml"/>
@@ -10,6 +10,60 @@
     <logo>https://cjg0905.github.io/images/avatar.png</logo>
     <icon>https://cjg0905.github.io/favicon.ico</icon>
     <rights>All rights reserved 2025, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[###linux相关（1）]]></title>
+        <id>https://cjg0905.github.io/post/linux-xiang-guan-1/</id>
+        <link href="https://cjg0905.github.io/post/linux-xiang-guan-1/">
+        </link>
+        <updated>2025-01-16T13:56:40.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>Linux操作系统的目录结构<br>
+Linux只有一个顶级目录，称之为:根目录<br>
+Windows系统有多个顶级目录，即各个盘符<br>
+2./在Linux系统中表示<br>
+出现在开头的/表示:根目录<br>
+后面表示:层次关系<br>
+3.无论是什么命令，用于什么用途,在Linux中,命令有其通用的格式:<br>
+command [-options] [parameter]<br>
+command: 命令本身<br>
+-options:[可选;非必填]命令的一些选项，可以通过选项控制命令的行为细节 parameter: [可选,非必填]命令的参数,多数用于命令的指向目标等语法中的[],表示可选的意思<br>
+4.ls命令的作用是?<br>
+在命令行中，以平铺的形式，展示当前工作目录(默认HOME目录)下的<br>
+内容(文件或文件夹)<br>
+5.HOME目录是?<br>
+每一个用户在Linux系统的专属目录，默认在:/home/用户名<br>
+6.当前工作目录?<br>
+Linux命令行在执行命令的时候，需要一个工作目录，打开命令行程序(<br>
+终端)默认设置工作目录在用户的HOME目录<br>
+7.ls命令的参数的作用<br>
+可以指定要查看的文件夹(目录)的内容，如果不给定参数，就查看当前工作目录的内容<br>
+8.ls命令的选项:<br>
+·-a选项,可以展示出隐藏的内容<br>
+以.开头的文件或文件夹默认被隐藏，需要-a才能显示出来 -l选项,以列表的形式展示内容，并展示更多细节<br>
+-h选项,需要和-l选项搭配使用，以更加人性化的方式显示文件的大小单位<br>
+9.命令的选项组合使用<br>
+·命令的选项是可以组合使用的，比如:ls -lah,等同于ls -a -l-h<br>
+10.cp命令<br>
+用于复制文件或文件夹<br>
+语法: cp [-r] 参数1参数2<br>
+-r选项，可选，用于复制文件夹使用，表示递归<br>
+参数1，Linux路径，表示被复制的文件或文件夹<br>
+参数2，Linux路径，表示要复制去的地方<br>
+11.mv命令<br>
+用于查看文件内容<br>
+语法:mv 参数1 参数2<br>
+参数1，Linux路径，表示被移动的文件或文件夹<br>
+参数2，Linux路径，表示要移动去的地方，如果目标不存在，则进行改名，<br>
+12.cd命令的作用<br>
+cd命令来自英文:Change Directory cd命令可以切换当前工作目录，语法是: cd [Linux路径]<br>
+没有选项，只有参数，表示目标路径使用参数，切换到指定路径<br>
+不使用参数，切换工作目录到当前用户的HOME<br>
+13.pwd命令的作用<br>
+pwd命令来自英文:Print Work Directory<br>
+pwd命令，没有选项，没有参数，直接使用即可作用是:输出当前所在的工作目录</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[###win11虚拟机构建linux环境]]></title>
         <id>https://cjg0905.github.io/post/win11-xu-ni-ji-gou-jian-linux-huan-jing/</id>

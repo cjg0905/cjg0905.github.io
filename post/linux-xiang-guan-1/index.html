@@ -2,20 +2,23 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>###Web前端语言初识（下） | Gridea</title>
+<title>###linux相关（1） | Gridea</title>
 <link rel="shortcut icon" href="https://cjg0905.github.io/favicon.ico?v=1737284358488">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cjg0905.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="###Web前端语言初识（下） | Gridea - Atom Feed" href="https://cjg0905.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="###linux相关（1） | Gridea - Atom Feed" href="https://cjg0905.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="##一.JS
-1.js有很多框架：bootstr，vue，nodejs等
-2.什么变量都用var 变量名=***
-3.console.log(&quot;我想要输出这段话或者这个变量&quot;)（用于调试代码）
-4.document对象，..." />
+    <meta name="description" content="
+Linux操作系统的目录结构
+Linux只有一个顶级目录，称之为:根目录
+Windows系统有多个顶级目录，即各个盘符
+2./在Linux系统中表示
+出现在开头的/表示:根目录
+后面表示:层次关系
+3.无论是什么命令，用于什么用途,在Li..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -78,47 +81,66 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              ###Web前端语言初识（下）
+              ###linux相关（1）
             </h2>
             <div class="post-info">
               <span>
-                2024-12-29
+                2025-01-16
               </span>
               <span>
-                2 min read
+                3 min read
               </span>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>##一.JS<br>
-1.js有很多框架：bootstr，vue，nodejs等<br>
-2.什么变量都用var 变量名=***<br>
-3.console.log(&quot;我想要输出这段话或者这个变量&quot;)（用于调试代码）<br>
-4.document对象，可以直接调用，他这个对象代表整个HTML页面<br>
-5.alert（想要弹出的内容）函数，用于在界面弹出一个提示chuangkou<br>
-6.定义函数function 函数名（变量名）{你的函数的功能，return可有可无}<br>
-7.DOM树<br>
-DOM树说白了就是js怎么去找到你想要操作的HTML元素的。<br>
-js获取HTML元素的方法：<br>
-假设HTML元素&lt;img src=&quot;61.png&quot;class=&quot;123&quot;id=&quot;465&quot;&gt;<br>
-（1）:var element=document.getElementByld(&quot;456&quot;)；(把id为465的HTML元素复制给element)<br>
-（2）:var element=document.getElementByClassName(&quot;123&quot;)；(把所有class为123的HTML元素赋值给element)<br>
-（3）.更改HTML属性:变量名.要修改的属性（src，class，id等）=“要修改成什么”；<br>
-例：element.src=&quot;789.png&quot;；<br>
-8.innerHTML函数：<br>
-假设存在元素&lt;div id=123&gt;123456</div><br>
-获取元素：var element=document.getElementByid(&quot;123&quot;)<br>
-写入元素：element.innerHTML=&quot;新的两边中间夹的一堆字&quot;<br>
-（innerHTML函数不仅可以改变内部的文字，同样可以向里面添标签）<br>
-9.一些函数<br>
-变量名.onclick=function()（点击元素发生函数内的事情）<br>
-变量名.onchange=fuction()（当元素发生变化时元素发生函数内的事情）<br>
-变量名.mouseover=fuction()（当鼠标到元素上发生函数内的事情）<br>
-变量名。mouseout=fuction（）（当鼠标划出元素发生函数内的事情）<br>
-10.改变CSS的属性<br>
-变量名.style.CSS属性名称=新的值</p>
+                <ol>
+<li>Linux操作系统的目录结构<br>
+Linux只有一个顶级目录，称之为:根目录<br>
+Windows系统有多个顶级目录，即各个盘符<br>
+2./在Linux系统中表示<br>
+出现在开头的/表示:根目录<br>
+后面表示:层次关系<br>
+3.无论是什么命令，用于什么用途,在Linux中,命令有其通用的格式:<br>
+command [-options] [parameter]<br>
+command: 命令本身<br>
+-options:[可选;非必填]命令的一些选项，可以通过选项控制命令的行为细节 parameter: [可选,非必填]命令的参数,多数用于命令的指向目标等语法中的[],表示可选的意思<br>
+4.ls命令的作用是?<br>
+在命令行中，以平铺的形式，展示当前工作目录(默认HOME目录)下的<br>
+内容(文件或文件夹)<br>
+5.HOME目录是?<br>
+每一个用户在Linux系统的专属目录，默认在:/home/用户名<br>
+6.当前工作目录?<br>
+Linux命令行在执行命令的时候，需要一个工作目录，打开命令行程序(<br>
+终端)默认设置工作目录在用户的HOME目录<br>
+7.ls命令的参数的作用<br>
+可以指定要查看的文件夹(目录)的内容，如果不给定参数，就查看当前工作目录的内容<br>
+8.ls命令的选项:<br>
+·-a选项,可以展示出隐藏的内容<br>
+以.开头的文件或文件夹默认被隐藏，需要-a才能显示出来 -l选项,以列表的形式展示内容，并展示更多细节<br>
+-h选项,需要和-l选项搭配使用，以更加人性化的方式显示文件的大小单位<br>
+9.命令的选项组合使用<br>
+·命令的选项是可以组合使用的，比如:ls -lah,等同于ls -a -l-h<br>
+10.cp命令<br>
+用于复制文件或文件夹<br>
+语法: cp [-r] 参数1参数2<br>
+-r选项，可选，用于复制文件夹使用，表示递归<br>
+参数1，Linux路径，表示被复制的文件或文件夹<br>
+参数2，Linux路径，表示要复制去的地方<br>
+11.mv命令<br>
+用于查看文件内容<br>
+语法:mv 参数1 参数2<br>
+参数1，Linux路径，表示被移动的文件或文件夹<br>
+参数2，Linux路径，表示要移动去的地方，如果目标不存在，则进行改名，<br>
+12.cd命令的作用<br>
+cd命令来自英文:Change Directory cd命令可以切换当前工作目录，语法是: cd [Linux路径]<br>
+没有选项，只有参数，表示目标路径使用参数，切换到指定路径<br>
+不使用参数，切换工作目录到当前用户的HOME<br>
+13.pwd命令的作用<br>
+pwd命令来自英文:Print Work Directory<br>
+pwd命令，没有选项，没有参数，直接使用即可作用是:输出当前所在的工作目录</li>
+</ol>
 
               </div>
               <div class="toc-container">
@@ -131,9 +153,9 @@ js获取HTML元素的方法：<br>
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://cjg0905.github.io/post/ab-dao-di-shi-zen-me-hui-shi/">
+            <a href="https://cjg0905.github.io/post/win11-xu-ni-ji-gou-jian-linux-huan-jing/">
               <h3 class="post-title">
-                ###Web前端语言初识（上）
+                ###win11虚拟机构建linux环境
               </h3>
             </a>
           </div>
