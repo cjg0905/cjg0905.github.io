@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cjg0905.github.io</id>
     <title>Gridea</title>
-    <updated>2025-01-19T11:00:45.415Z</updated>
+    <updated>2025-01-19T12:30:47.644Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cjg0905.github.io"/>
     <link rel="self" href="https://cjg0905.github.io/atom.xml"/>
@@ -62,6 +62,20 @@ cd命令来自英文:Change Directory cd命令可以切换当前工作目录，�
 pwd命令来自英文:Print Work Directory<br>
 pwd命令，没有选项，没有参数，直接使用即可作用是:输出当前所在的工作目录</li>
 </ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三日报（1）]]></title>
+        <id>https://cjg0905.github.io/post/san-ri-bao-1/</id>
+        <link href="https://cjg0905.github.io/post/san-ri-bao-1/">
+        </link>
+        <updated>2025-01-19T12:23:34.000Z</updated>
+        <content type="html"><![CDATA[<p>1.搭建了虚拟机并在全力学习linux相关内容<br>
+并已经学到了主机状态监控</p>
+<p>规划：继续学习Linux，尽快完结linux的学习并打通pwn.collage上的Linux相关内容完成base<br>
+2，完结Linux后练习爬虫python<br>
+3.之后再精进js和php年后再开始进行靶机训练</p>
+<p>注：本博客也会用于记笔记用学长只需看三日报就可以了</p>
 ]]></content>
     </entry>
     <entry>
