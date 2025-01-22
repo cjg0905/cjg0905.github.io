@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cjg0905.github.io</id>
     <title>Gridea</title>
-    <updated>2025-01-19T12:48:36.546Z</updated>
+    <updated>2025-01-22T08:47:31.950Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cjg0905.github.io"/>
     <link rel="self" href="https://cjg0905.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://cjg0905.github.io/images/avatar.png</logo>
     <icon>https://cjg0905.github.io/favicon.ico</icon>
     <rights>All rights reserved 2025, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[###三日报（2）]]></title>
+        <id>https://cjg0905.github.io/post/san-ri-bao-2/</id>
+        <link href="https://cjg0905.github.io/post/san-ri-bao-2/">
+        </link>
+        <updated>2025-01-22T08:41:40.000Z</updated>
+        <content type="html"><![CDATA[<p>1.学完了Linux的基本语法<br>
+2.学习了一些python基础语法和爬虫<br>
+3.写了一些pwn.college中Linux的题一开始想直接写完结果那个网站太卡太慢，google机翻构思一坨越写越红温所以就打算之后慢慢写了</p>
+<p>未来规划<br>
+1.继续学习python以及php<br>
+2.学习一点js<br>
+3.刷题冲冲冲</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[###linux相关（1）]]></title>
         <id>https://cjg0905.github.io/post/linux-xiang-guan-1/</id>
