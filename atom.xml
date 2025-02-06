@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cjg0905.github.io</id>
     <title>Gridea</title>
-    <updated>2025-01-31T10:42:20.990Z</updated>
+    <updated>2025-02-06T14:04:18.293Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cjg0905.github.io"/>
     <link rel="self" href="https://cjg0905.github.io/atom.xml"/>
@@ -10,6 +10,30 @@
     <logo>https://cjg0905.github.io/images/avatar.png</logo>
     <icon>https://cjg0905.github.io/favicon.ico</icon>
     <rights>All rights reserved 2025, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[三日报（7）]]></title>
+        <id>https://cjg0905.github.io/post/san-ri-bao-7/</id>
+        <link href="https://cjg0905.github.io/post/san-ri-bao-7/">
+        </link>
+        <updated>2025-02-06T14:01:34.000Z</updated>
+        <content type="html"><![CDATA[<p>1.慢慢把pwn.collage中的Linux题写了百分之60<br>
+2.upload.labs写到了18关</p>
+<p>规划<br>
+继续写upload.labs<br>
+写完配置sql.labs</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三日报（6）]]></title>
+        <id>https://cjg0905.github.io/post/san-ri-bao-6/</id>
+        <link href="https://cjg0905.github.io/post/san-ri-bao-6/">
+        </link>
+        <updated>2025-02-03T10:54:07.000Z</updated>
+        <content type="html"><![CDATA[<p>upload-labs已经打到15关今天还打了比赛收获很多</p>
+<p>规划<br>
+继续打upload-labs有比赛也继续打</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[三日报（5）]]></title>
         <id>https://cjg0905.github.io/post/san-ri-bao-5/</id>
@@ -243,81 +267,6 @@ js获取HTML元素的方法：<br>
 变量名。mouseout=fuction（）（当鼠标划出元素发生函数内的事情）<br>
 10.改变CSS的属性<br>
 变量名.style.CSS属性名称=新的值</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[###Web前端语言初识（上）]]></title>
-        <id>https://cjg0905.github.io/post/ab-dao-di-shi-zen-me-hui-shi/</id>
-        <link href="https://cjg0905.github.io/post/ab-dao-di-shi-zen-me-hui-shi/">
-        </link>
-        <updated>2024-10-19T07:01:21.000Z</updated>
-        <content type="html"><![CDATA[<p>##一.HTML<br>
-#1.&lt;&gt;某个东西&lt;/&gt;长成这样的叫做标签，也可以只有一个&lt;/&gt;整个html语言写在一个大的&lt;html&gt;.....&lt;/html&gt;标签里。<br>
-#2.&lt;head&gt;......&lt;/head&gt;head写在开头，用于标识一些页面的基本信息和预先需要加载的(CSS写在这个标签里面的&quot;&lt;style&gt;标签里)<br>
-#3.&lt;body&gt;......&lt;/body&gt;body标签是页面的主体部分，也就是页面上的东西，其中&lt;script&gt;标签用于些javascript代码<br>
-#4.写在head里的：&lt;title&gt;页面名字&lt;/title&gt;<br>
-#5.写在body里的：&lt;div&gt;内容，可以是其他标签&lt;/div&gt;<br>
-&lt;form&gt;内容，可以是其他标签&lt;/form&gt;<br>
-&lt;input&gt;-&gt;一个输入框<br>
-&lt;img&gt;一张图片<br>
-&lt;a&gt;一个链接<br>
-#6.<a>标签的使用：<br>
-&lt;a href=&quot;网站的url&quot;&gt;点击名称</a><br>
-#7.&lt;img&gt;的使用：<br>
-&lt;img scr=&quot;相对地址或绝对地址&quot;&gt;<br>
-#8.&lt;input&gt;的使用：<br>
-&lt;input type=&quot;输入框类型&quot;name=&quot;传递给后端的变量的名字&quot;&gt;<br>
-#9.&lt;form&gt;标签的使用<br>
-&lt;form action=&quot;把值传给那个程序&quot; method=&quot;传给他的方式(get/post)&quot;&gt;<br>
-#10.任何标签都可以被赋予一个class属性和id属性，其中class代表了某一类，id表示准确的个体<br>
-例：&lt;img src&quot;61.png&quot;class=&quot;hhhhhh&quot;id=&quot;131556&quot;&gt;<br>
-##二.CSS<br>
-#1.  CSS的一般形式：<br>
-.某class                                #某id<br>
-{                                              {<br>
-css属性              或                   css属性<br>
-}                                               }<br>
-#2.class的访问方式一般用.id用#<br>
-#3.css的一些属性：<br>
-left：距离左边多少<br>
-px：多少像素<br>
-top：距离顶端多少<br>
-position：定位方式（relative（相对正常位置，默认设置），fixed（相对于浏览器框框），absolute（相对于父元素））；<br>
-height：高多少；<br>
-width：宽多少<br>
-z-index：图层位置，图层越高越优先显示</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://cjg0905.github.io/post/hello-gridea/</id>
-        <link href="https://cjg0905.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
