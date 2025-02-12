@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cjg0905.github.io</id>
     <title>Gridea</title>
-    <updated>2025-02-09T14:44:12.608Z</updated>
+    <updated>2025-02-12T14:03:56.501Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cjg0905.github.io"/>
     <link rel="self" href="https://cjg0905.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://cjg0905.github.io/images/avatar.png</logo>
     <icon>https://cjg0905.github.io/favicon.ico</icon>
     <rights>All rights reserved 2025, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[三日报（9）]]></title>
+        <id>https://cjg0905.github.io/post/san-ri-bao-9/</id>
+        <link href="https://cjg0905.github.io/post/san-ri-bao-9/">
+        </link>
+        <updated>2025-02-12T13:59:37.000Z</updated>
+        <content type="html"><![CDATA[<p>1.继续精进了python的语法<br>
+2.完成了sqil-labs的三观</p>
+<p>规划<br>
+精进php<br>
+继续写sqil-labs</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[三日报（8）]]></title>
         <id>https://cjg0905.github.io/post/san-ri-bao-8/</id>
@@ -226,22 +239,6 @@ Linux路径，表示被查看的文件</p>
 2，完结Linux后练习爬虫python<br>
 3.之后再精进js和php年后再开始进行靶机训练</p>
 <p>注：本博客也会用于记笔记用学长只需看三日报就可以了</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[###win11虚拟机构建linux环境]]></title>
-        <id>https://cjg0905.github.io/post/win11-xu-ni-ji-gou-jian-linux-huan-jing/</id>
-        <link href="https://cjg0905.github.io/post/win11-xu-ni-ji-gou-jian-linux-huan-jing/">
-        </link>
-        <updated>2025-01-16T12:51:29.000Z</updated>
-        <content type="html"><![CDATA[<p>##一.安装VMware<br>
-在联想应用商店或网页版即可安装（注意：在VMware更新后网上许多VMware链接已失效所以在联想应用商店下载是最简单的方法了）之后就一直按下一步就可以了；<br>
-【检查：在win系统的设置页面，在网络设置这里点击高级网络设置看是否有VMnet1和8】<br>
-##2.centos的安装<br>
-在下面的网站中进去选择centos-7-x86_64-DVD-1810.iso下载（建议科学上网）；<br>
-<a href=http://vault.centos.org/7.6.1810/isos/x86_64/>下载地址</a><br>
-##虚拟机连接linux系统<br>
-打开vm点击新建虚拟机之后一直下一步在安装程序光盘镜像文件中点击浏览在下载文件夹里找到刚刚下载好的centos7下一步后生仔用户名和密码等之后下一步看看你想安装到的地方之后下一步设置虚拟硬盘多大之后可自己设置内存名称等之后点完成就可以了之后正常登录</p>
 ]]></content>
     </entry>
 </feed>
