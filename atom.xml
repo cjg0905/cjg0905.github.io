@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cjg0905.github.io</id>
     <title>Gridea</title>
-    <updated>2025-02-18T15:56:50.613Z</updated>
+    <updated>2025-02-18T15:57:16.023Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cjg0905.github.io"/>
     <link rel="self" href="https://cjg0905.github.io/atom.xml"/>
@@ -16,7 +16,7 @@
         <link href="https://cjg0905.github.io/post/san-ri-bao-11/">
         </link>
         <updated>2025-02-18T15:42:10.000Z</updated>
-        <content type="html"><![CDATA[<p>崩溃了，写sqli-labs发现自己phpstudy中apache的httpd.conf里面没有一句代码，勇敢问deepseek改代码结果改崩了，apache都打不开，找ai博客越改越乱到最后连phpstudy都打不开了，只能把phpstudy删了重下结果就是upload-labs和sqli-labs的数据全没了要重新下phpstudy也要重新配置。下次再也不敢碰源代码了【爆哭】【爆哭】</p>
+        <content type="html"><![CDATA[<p>崩溃了，写sqli-labs发现自己phpstudy中apache的httpd.conf里面没有一句代码，勇敢问deepseek改代码结果改崩了，apache都打不开，找ai博客越改越乱到最后连phpstudy都打不开了，只能把phpstudy删了重下结果就是upload-labs和sqli-labs的数据全没了要重新下也得重新写phpstudy也要重新配置。下次再也不敢碰源代码了【爆哭】【爆哭】</p>
 ]]></content>
     </entry>
     <entry>
